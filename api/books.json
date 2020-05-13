@@ -1,0 +1,82 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "author": "J.K. Rowling",
+      "ISBN": "123456"
+    },
+    {
+      "id": 2,
+      "title": "Harry Potter and the Chamber of Secrets",
+      "author": "J.K. Rowling",
+      "ISBN": "1234567"
+    },
+    {
+      "title": "Henry and Mudge",
+      "author": "Cynthia Rylant",
+      "ISBN": "98765",
+      "id": 3
+    },
+    {
+      "title": "Harry Potter and the Prisoner of Azkaban",
+      "author": "J.K. Rowling",
+      "ISBN": "123456",
+      "id": 4
+    },
+    {
+      "title": "James and the Giant Peach",
+      "author": "Roald Dahl",
+      "ISBN": "165321",
+      "id": 5
+    },
+    {
+      "title": "Harry Potter and the Goblet of Fire",
+      "author": "J.K. Rowling",
+      "ISBN": "123444",
+      "id": 6
+    },
+    {
+      "title": "Harry Potter and the Deathly Hallows",
+      "author": "J.K. Rowling",
+      "ISBN": "123777",
+      "id": 7
+    },
+    {
+      "title": "Harry Potter and the Order of the Phoenix",
+      "author": "J.K. Rowling",
+      "ISBN": "123555",
+      "id": 8
+    },
+    {
+      "title": "Harry Potter and the Half-Blood Prince",
+      "author": "J.K. Rowling",
+      "ISBN": "123666",
+      "id": 9
+    },
+    {
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "ISBN": "323232",
+      "id": 10
+    },
+    {
+      "title": "Jane Eyre",
+      "author": "Charlotte Bronte",
+      "ISBN": "323656",
+      "id": 11
+    },
+    {
+      "title": "Wild",
+      "author": "Cheryl Strayed",
+      "ISBN": "864286",
+      "id": 12
+    },
+    {
+      "title": "Becoming",
+      "author": "Michelle Obama",
+      "ISBN": "864789",
+      "id": 13
+    }
+  ]
+}

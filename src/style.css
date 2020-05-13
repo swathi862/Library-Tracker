@@ -1,0 +1,49 @@
+#add-new-bar{
+    background-color: rgb(247, 219, 59);
+    border: 1px solid black;
+    margin: 2em;
+    padding: 2em;
+    display: flex;
+    justify-content: space-evenly;
+}
+#search-catalog{
+    background-color: rgb(247, 219, 59);
+    border: 1px solid black;
+    margin: 2em;
+    padding: 2em;
+    display: flex;
+    justify-content: space-around;
+}
+#book-container{
+    background-color: rgb(247, 219, 59);
+    border: 1px solid black; 
+    margin: 1em;
+    padding: 1em; 
+}
+#book-card{
+    border: 1px solid black;
+    margin: 1em;
+    padding: 1em;
+}
+img{
+    width: 150px;
+}
+.row{
+    display: flex;
+}
+.col{
+    margin: 1em;
+}
+header{
+    text-align: center;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+input, button{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+body{
+    background-color: rgb(7, 73, 94);
+}
