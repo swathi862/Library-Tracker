@@ -6,7 +6,6 @@ const eventListeners = {
         document.querySelector("#search-book-btn").addEventListener("click", function(){
             if(event.target.id === "search-book-btn"){
                 const bookTitle = document.querySelector("#title-book").value.toLowerCase()
-                console.log(bookTitle)
                 const bookAuthor = document.querySelector("#author-book").value.toLowerCase()
                 const isbnNumber = document.querySelector("#isbn-num").value.toLowerCase()
                 apiManager.search(bookTitle, bookAuthor, isbnNumber)

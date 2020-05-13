@@ -6,16 +6,10 @@ const apiManager = {
             .then(r => r.json())
             .then(parsedBooks => {
                 parsedBooks.forEach(book =>{
-                    // console.log(book)
                     const bookName = book.title.toLowerCase()
                     const bookAuthor = book.author.toLowerCase()
-                    // console.log(bookName)
-                    // console.log(titleSearchInput)
-                    // console.log(bookAuthor)
-                    // console.log(authorSearchInput)
-
-
-                    if (bookName.includes(titleSearchInput) === true || bookAuthor.includes(authorSearchInput) === true || book.ISBN === isbnSearchInput){
+                    
+                    if ((titleSearchInput !== "" && bookName.includes(titleSearchInput) === true) || (authorSearchInput !== "" && bookAuthor.includes(authorSearchInput) === true) || book.ISBN === isbnSearchInput){
                         domPrinter.printBooks(book)
                     }
                 })
