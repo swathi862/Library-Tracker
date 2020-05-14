@@ -13,10 +13,10 @@
       "ISBN": "1234567"
     },
     {
+      "id": 3,
       "title": "Henry and Mudge",
       "author": "Cynthia Rylant",
-      "ISBN": "98765",
-      "id": 3
+      "ISBN": "98765"
     },
     {
       "title": "Harry Potter and the Prisoner of Azkaban",
@@ -83,6 +83,48 @@
       "author": "Lilly Singh",
       "ISBN": "456783",
       "id": 14
+    },
+    {
+      "title": "Where the red fern grows",
+      "author": "Wilson Rawls",
+      "ISBN": "123895",
+      "id": 15
+    },
+    {
+      "title": "Ida B",
+      "author": "Katherine Hannigan",
+      "ISBN": "123875",
+      "id": 18
+    },
+    {
+      "title": "Ender's Game",
+      "author": "Orson Scott Card",
+      "ISBN": "124578",
+      "id": 19
+    },
+    {
+      "id": 20,
+      "title": "Looking for Alaska",
+      "author": "John Green",
+      "ISBN": "145687"
+    },
+    {
+      "title": "War of the Worlds",
+      "author": "H.G. Wells",
+      "ISBN": "123746",
+      "id": 21
+    },
+    {
+      "title": "The Fault in Our Stars",
+      "author": "John Green",
+      "ISBN": "123785",
+      "id": 22
+    },
+    {
+      "title": "Paper Towns",
+      "author": "John Green",
+      "ISBN": "123783",
+      "id": 23
     }
   ]
 }

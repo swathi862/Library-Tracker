@@ -21,9 +21,25 @@ const eventListeners = {
     },
     deleteBook () {
         document.querySelector("body").addEventListener("click", function(){
-            domPrinter.clearResults()
             if(event.target.id.includes("delete-btn") === true){
+                domPrinter.clearResults()
                 apiManager.deleteBook()
+            }
+        })
+    },
+    editBook () {
+        document.querySelector("body").addEventListener("click", function(){
+            if(event.target.id.includes("edit-btn") === true){
+                const bookID = event.target.id.split("-")[2]
+                apiManager.editNewBook(bookID)
+            }
+        })
+    },
+    saveBook () {
+        document.querySelector("body").addEventListener("click", function(){
+            if(event.target.id.includes("save-btn") === true){
+                const bookID = event.target.id.split("-")[2]
+                apiManager.saveEditedBook(bookID)
             }
         })
     }
