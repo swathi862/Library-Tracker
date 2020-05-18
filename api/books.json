@@ -1,130 +1,173 @@
 {
+  "users": [
+    {
+      "id": 1,
+      "username": "sm98",
+      "password": "abc123"
+    },
+    {
+      "id": 2,
+      "username": "sm95",
+      "password": "abc123"
+    },
+    {
+      "id": 3,
+      "username": "hj97",
+      "password": "abc123"
+    },
+    {
+      "id": 4,
+      "username": "kw11",
+      "password": "abc123"
+    }
+  ],
   "books": [
     {
       "id": 1,
       "title": "Harry Potter and the Sorcerer's Stone",
       "author": "J.K. Rowling",
-      "ISBN": "123456"
+      "ISBN": "123456",
+      "userId": 2
     },
     {
       "id": 2,
       "title": "Harry Potter and the Chamber of Secrets",
       "author": "J.K. Rowling",
-      "ISBN": "1234567"
+      "ISBN": "1234567",
+      "userId": 2
     },
     {
       "id": 3,
       "title": "Henry and Mudge",
       "author": "Cynthia Rylant",
-      "ISBN": "98765"
+      "ISBN": "98765",
+      "userId": 4
     },
     {
       "title": "Harry Potter and the Prisoner of Azkaban",
       "author": "J.K. Rowling",
       "ISBN": "123456",
-      "id": 4
+      "id": 4,
+      "userId": 2
     },
     {
       "title": "James and the Giant Peach",
       "author": "Roald Dahl",
       "ISBN": "165321",
-      "id": 5
+      "id": 5,
+      "userId": 4
     },
     {
       "title": "Harry Potter and the Goblet of Fire",
       "author": "J.K. Rowling",
       "ISBN": "123444",
-      "id": 6
+      "id": 6,
+      "userId": 2
     },
     {
       "title": "Harry Potter and the Deathly Hallows",
       "author": "J.K. Rowling",
       "ISBN": "123777",
-      "id": 7
+      "id": 7,
+      "userId": 2
     },
     {
       "title": "Harry Potter and the Order of the Phoenix",
       "author": "J.K. Rowling",
       "ISBN": "123555",
-      "id": 8
+      "id": 8,
+      "userId": 2
     },
     {
       "title": "Harry Potter and the Half-Blood Prince",
       "author": "J.K. Rowling",
       "ISBN": "123666",
-      "id": 9
+      "id": 9,
+      "userId": 2
     },
     {
       "title": "Pride and Prejudice",
       "author": "Jane Austen",
       "ISBN": "323232",
-      "id": 10
+      "id": 10,
+      "userId": 3
     },
     {
       "title": "Jane Eyre",
       "author": "Charlotte Bronte",
       "ISBN": "323656",
-      "id": 11
+      "id": 11,
+      "userId": 1
     },
     {
       "title": "Wild",
       "author": "Cheryl Strayed",
       "ISBN": "864286",
-      "id": 12
+      "id": 12,
+      "userId": 1
     },
     {
       "title": "Becoming",
       "author": "Michelle Obama",
       "ISBN": "864789",
-      "id": 13
+      "id": 13,
+      "userId": 1
     },
     {
       "title": "How to Be A Bawse",
       "author": "Lilly Singh",
       "ISBN": "456783",
-      "id": 14
+      "id": 14,
+      "userId": 1
     },
     {
       "title": "Where the red fern grows",
       "author": "Wilson Rawls",
       "ISBN": "123895",
-      "id": 15
+      "id": 15,
+      "userId": 4
     },
     {
       "title": "Ida B",
       "author": "Katherine Hannigan",
       "ISBN": "123875",
-      "id": 18
+      "id": 18,
+      "userId": 1
     },
     {
       "title": "Ender's Game",
       "author": "Orson Scott Card",
       "ISBN": "124578",
-      "id": 19
+      "id": 19,
+      "userId": 1
     },
     {
       "id": 20,
       "title": "Looking for Alaska",
       "author": "John Green",
-      "ISBN": "145687"
+      "ISBN": "145687",
+      "userId": 1
     },
     {
       "title": "War of the Worlds",
       "author": "H.G. Wells",
       "ISBN": "123746",
-      "id": 21
+      "id": 21,
+      "userId": 3
     },
     {
       "title": "The Fault in Our Stars",
       "author": "John Green",
       "ISBN": "123785",
-      "id": 22
+      "id": 22,
+      "userId": 3
     },
     {
       "title": "Paper Towns",
       "author": "John Green",
       "ISBN": "123783",
-      "id": 23
+      "id": 23,
+      "userId": 3
     }
   ]
 }

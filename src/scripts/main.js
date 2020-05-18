@@ -4,6 +4,7 @@ import apiManager from "./apiManager.js"
 
 apiManager.getAllBooks()
 
+domPrinter.createLoginBar()
 domPrinter.createAddBookBar()
 domPrinter.createSearchBar()
 

@@ -21,6 +21,14 @@ const domPrinter = {
         </form>
         <button id="add-book-btn">Add New Book</button>`
     },
+    createLoginBar(){
+        document.querySelector("#login-bar").innerHTML = `
+        <form>
+            <input id="add-username" placeholder="Username">
+            <input id="add-password" placeholder="Password">
+        </form>
+        <button id="login-btn">Login</button>`
+    },
     printBooks(book){
         const booksHTMLString = document.querySelector("#book-container").innerHTML += `
         <article id="book-card" class="row">
