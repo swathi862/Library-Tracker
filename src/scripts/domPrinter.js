@@ -23,11 +23,11 @@ const domPrinter = {
     },
     createLoginBar(){
         document.querySelector("#login-bar").innerHTML = `
-        <form>
-            <input id="add-username" placeholder="Username">
-            <input id="add-password" placeholder="Password">
+        <form id="login-data">
+            <input type= "text" id="username-input" placeholder="Username">
+            <input type= "password" id="password-input" placeholder="Password">
         </form>
-        <button id="login-btn">Login</button>`
+        <button type="submit" id="login-btn">Login</button>`
     },
     printBooks(book){
         const booksHTMLString = document.querySelector("#book-container").innerHTML += `

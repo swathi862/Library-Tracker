@@ -25,6 +25,7 @@ const apiManager = {
             })
     },
     createNewBook(){
+        domPrinter.addNewBook.userId = sessionStorage.getItem("userId")
         return fetch("http://localhost:3000/books", {
             method: "POST",
             headers: {
@@ -37,7 +38,6 @@ const apiManager = {
             .then(parsedBooks => {
                 parsedBooks.forEach(book =>{
                     domPrinter.printBooks(book)
-                
                 })
             })
         })
@@ -82,6 +82,38 @@ const apiManager = {
                     })
                 })
         }) 
+    },
+    loginAccount(usernameValue, passwordValue){
+        return fetch(`http://localhost:3000/users?username=${usernameValue}`)
+        .then(r => {
+            console.log(r.status)
+            if(r.status === 400){
+                return window.alert(`I'm sorry! The username you entered is not in our system. Please try again!`)
+            }
+            else{return r.json()}
+        })
+        .then(user => {
+            console.log(user[0].id);
+            console.log(user[0].password);
+            if (passwordValue === user[0].password){
+                sessionStorage.setItem("userId", user[0].id);
+                fetch(`http://localhost:3000/books/?userId=${sessionStorage.getItem("userId")}`)
+                    .then(r => r.json())
+                    .then(parsedBooks => {
+                        domPrinter.clearResults()
+                        parsedBooks.forEach(book =>{
+                            domPrinter.printBooks(book)
+                        })
+                    })
+            }
+            else{
+                window.alert(`I'm sorry! The password you entered does not exist with the username:           ${usernameValue}
+                    Please try again!`)
+            }
+            // TODO: handle errors if user enters username that doesn't exist
+            // TODO: think about how to register new users
+            
+        })
     }
 }
 

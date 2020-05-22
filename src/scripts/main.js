@@ -8,6 +8,7 @@ domPrinter.createLoginBar()
 domPrinter.createAddBookBar()
 domPrinter.createSearchBar()
 
+eventListeners.login()
 eventListeners.searchForBooks()
 eventListeners.addBook()
 eventListeners.deleteBook()
